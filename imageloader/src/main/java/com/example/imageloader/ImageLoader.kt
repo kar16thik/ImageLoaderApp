@@ -18,7 +18,7 @@ class ImageLoader private constructor(context: Context){
     fun submit(imageRequestData: RequestBuilder.ImageRequestData){
         mImageLoaderService.performSubmit(imageRequestData)
     }
-    fun cancle(){
+    fun cancel(){
         mImageLoaderService.onCancel()
     }
 

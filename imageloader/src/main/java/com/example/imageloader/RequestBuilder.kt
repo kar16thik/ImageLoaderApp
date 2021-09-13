@@ -5,8 +5,8 @@ import android.widget.ImageView
 
 class RequestBuilder(imageLoader: ImageLoader, uri: Uri) {
 
-    private lateinit var mImageRequestData:ImageRequestData
-    private lateinit var mImageLoader: ImageLoader
+    private  var mImageRequestData:ImageRequestData
+    private  var mImageLoader: ImageLoader
 
     init {
         mImageRequestData=  ImageRequestData(uri)
